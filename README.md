@@ -8,4 +8,5 @@ Actually, unit is several atoms, which hash been defined in Erlang.
 The :native value is a special one that means the highest resultion available to the runtime system.
 
 Outout a list
+
 IO.inspect [10,10], charlists: :as_lists
