@@ -10,3 +10,5 @@ The :native value is a special one that means the highest resultion available to
 Outout a list
 
 IO.inspect [10,10], charlists: :as_lists
+
+Difference between Process.exit(pid,:normal) and Process.exit(pid,:kill) is still unclear
