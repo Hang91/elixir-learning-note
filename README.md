@@ -31,5 +31,8 @@ mix escript.build
 
 #hash function and change digits
 
+this blog well explained
+
+https://www.djm.org.uk/posts/cryptographic-hash-functions-elixir-generating-hex-digests-md5-sha1-sha2/
 
 
