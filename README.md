@@ -12,3 +12,13 @@ Outout a list
 IO.inspect [10,10], charlists: :as_lists
 
 Difference between Process.exit(pid,:normal) and Process.exit(pid,:kill) is still unclear
+
+Start a project of elixir:
+
+mix new (name of project)
+
+command line start: 
+
+def escript do
+  [main_module: name of main_module]
+end
