@@ -20,5 +20,12 @@ mix new (name of project)
 command line start: 
 
 def escript do
+
   [main_module: name of main_module]
+  
 end
+
+mix escript.build
+./(name of main_module) arguments
+
+
