@@ -50,4 +50,16 @@ I choose to use
 
 a = String.at(key, index) |> to_string |> String.to_integer
 
+## handle_call timeout exception
+try do
+
+  GenServer.call(pid, request, time)
+  
+catch
+  
+  exit, reason ->
+     fun()
+     
+end
+  
 
