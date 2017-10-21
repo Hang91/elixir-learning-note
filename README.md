@@ -43,4 +43,11 @@ String.at(Integer.to_string(int, 16), 0)
 
 IO.puts "pid is #{inspect(self())}"
 
+## calculate the difference between to char
+
+Can't use char a - char b. This is illegal with argument error
+I choose to use
+
+a = String.at(key, index) |> to_string |> String.to_integer
+
 
