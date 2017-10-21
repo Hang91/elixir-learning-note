@@ -35,7 +35,7 @@ this blog well explained
 
 https://www.djm.org.uk/posts/cryptographic-hash-functions-elixir-generating-hex-digests-md5-sha1-sha2/
 
-# integer to 16 base char
+## integer to 16 base char
 
 String.at(Integer.to_string(int, 16), 0)
 
