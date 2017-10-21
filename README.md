@@ -57,7 +57,7 @@ try do
   
 catch
   
-  exit, reason ->
+  :exit, reason ->
      fun()
      
 end
